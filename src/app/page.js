@@ -1,7 +1,10 @@
-'use client';
-
-import SpaceTravelApp from '@/components/SpaceTravelApp';
+// src/app/page.js
+import ClientComponent from '../components/ClientComponent';
 
 export default function Home() {
-  return <SpaceTravelApp />;
+  return (
+    <div>
+      <ClientComponent />
+    </div>
+  );
 }
